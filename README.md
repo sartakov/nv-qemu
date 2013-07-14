@@ -4,4 +4,6 @@ To save RAM please use:
 
     dump-guest-memory file.name
 
-Then, to use this image, add -nvram-path file.name in qemu
+Then, to use this image, add 
+
+    qemu-system-i386 <..> -nvram-path file.name
